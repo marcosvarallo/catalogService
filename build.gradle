@@ -21,7 +21,7 @@ jacoco {
 	toolVersion = "0.8.12"
 }
 
-group = 'com.catalogservice'
+group = 'com.catalog-service'
 version = '0.0.1-SNAPSHOT'
 
 configurations {
