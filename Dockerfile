@@ -5,9 +5,9 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copiar o arquivo JAR gerado para o contêiner
-COPY build/libs/catalog-service-0.0.1-SNAPSHOT.jar /app/catalog-service.jar
+COPY build/libs/*.jar /app/catalog-service.jar
 
-# Expor a porta que a aplicação irá rodar (exemplo: 8080)
+# Expor a porta que a aplicação irá rodar
 EXPOSE 8080
 
 # Comando para executar a aplicação

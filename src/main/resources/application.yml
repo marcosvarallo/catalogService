@@ -5,4 +5,5 @@ spring:
     mongodb:
       host: mongo
       port: 27017
-      database: catalog-service
+  kafka:
+    bootstrap-servers: kafka:9092
